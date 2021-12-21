@@ -12,7 +12,7 @@
   font-weight: 600;
 }
 
-.btn a:hover {
+.btn:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
 
