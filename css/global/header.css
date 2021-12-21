@@ -8,11 +8,8 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  padding: 20px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .header-menu {
   display: flex;
@@ -63,6 +60,6 @@
   }
   .header-menu a {
     padding: 8px 12px;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
