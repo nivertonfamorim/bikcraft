@@ -17,6 +17,10 @@
   overflow-x: auto;
 }
 
+#bicicleta {
+  padding: 0px 0px 0px 0px;
+}
+
 .bicicletas-lista li {
   flex: 1;
   min-width: 280px;
