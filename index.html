@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preload" href="css/style.css" as="style">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +19,7 @@
   <header class="header-bg">
     <div class="header conte">
       <a href="./">
-        <img src="./img/bikcraft.svg" alt="bikcraft">
+        <img src="./img/bikcraft.svg"  width="136" height="32" alt="bikcraft">
       </a>
       <nav aria-label="primaria">
         <ul class="header-menu font-1-m cor-0">
@@ -35,9 +37,10 @@
         <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
         <a class="btn" href="./bicicletas.html">Escolha a sua</a>
       </div>
-      <div>
-        <img src="./img/fotos/introducao.jpg" alt="Bicicleta elétrica preta">
-      </div>
+      <picture> 
+        <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg"> 
+        <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta elétrica preta">
+      </picture>
     </div>
   </main>
   <article class="bicicletas-lista">
@@ -119,7 +122,7 @@
       </blockquote>
     </div>
   </section>
-  
+
   <article class="seguros-bg">
     <div class="seguros conte">
       <h2 class="font-1-xxl cor-0">seguros<span class="cor-p1">.</span></h2>
