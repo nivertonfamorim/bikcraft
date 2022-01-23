@@ -33,6 +33,7 @@
   transition: 0.3s;
   position: absolute;
 }
+
 .header-menu a:hover::after {
   width: 100%;
 }
